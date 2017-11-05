@@ -1,16 +1,19 @@
 {
-  "name": "mytest",
+  "name": "testforline",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "engines" : { "node" : "4.2.6" },
   "dependencies": {
     "@line/bot-sdk": "^4.0.0",
     "cobolscript": "0.0.1",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "request": "^2.83.0"
   }
 }
