@@ -4,4 +4,4 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        PROCEDURE DIVISION.
-           DISPLAY "Hello 1 World!".
+           DISPLAY "佐藤さん".
