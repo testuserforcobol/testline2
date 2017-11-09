@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 1024M
-  host: testforline 
-  name: testforline
+  host: testline2 
+  name: testline2
   command: node app.js
   path: .
   domain: mybluemix.net
