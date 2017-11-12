@@ -39,11 +39,12 @@ function handleEvent(event) {
   }
 
   var webclient = require('request');
-  webclient.post({
+  webclient({
     url: 'https://api.a3rt.recruit-tech.co.jp/talk/v1/smalltalk',
     form: { apikey: process.env.a3rt_talk_apikey, query: event.message.text },
+    method: 'POST',
     json: true
-  }, function (err, response, body) {
+  }, (err, response, body) => {
     var logs = [];
     var program = cobolscript.compileProgramFile('./hello.cob');
     hookConsoleLog(logs);
