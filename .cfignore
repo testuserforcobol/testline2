@@ -1,0 +1,7 @@
+node_modules/
+REAME.md
+.github/
+.git/
+.gitignore
+logs
+*.log
